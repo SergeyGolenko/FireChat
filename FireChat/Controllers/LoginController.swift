@@ -19,15 +19,32 @@ class LoginController : UIViewController {
     }()
     
     private let emailContainerView : UIView = {
-        let view = UIView()
-        view.backgroundColor = .cyan
-        return view
+        let containerView = UIView()
+        containerView.backgroundColor = .clear
+        containerView.setHeight(height: 50)
+        
+        let iv = UIImageView()
+        iv.image = UIImage(systemName: "envelope")
+        iv.tintColor = .white
+        containerView.addSubview(iv)
+        iv.centerY(inView: containerView)
+        iv.anchor(left:containerView.leftAnchor,paddingLeft: 8)
+        iv.setDimensions(height: 24, width: 24)
+        return containerView
     }()
     
     private let passwordContainerView : UIView = {
-        let view = UIView()
-        view.backgroundColor = .yellow
-        return view
+        let containerView = UIView()
+        containerView.backgroundColor = .clear
+        containerView.setHeight(height: 50)
+        let iv = UIImageView()
+        iv.image = UIImage(systemName: "lock")
+        iv.tintColor = .white
+        containerView.addSubview(iv)
+        iv.centerY(inView: containerView)
+        iv.anchor(left:containerView.leftAnchor,paddingLeft: 8)
+        iv.setDimensions(height: 24, width: 24)
+        return containerView
     }()
     
     private let loginButton: UIButton = {
@@ -36,8 +53,24 @@ class LoginController : UIViewController {
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         button.backgroundColor = .red
+        button.setHeight(height: 50)
         return button
     }()
+    
+    private let emailTextField: UITextField = {
+        let tf = UITextField()
+        tf.placeholder = "Email"
+        return tf
+    }()
+    
+    private let passwordTextField: UITextField = {
+        let tf = UITextField()
+        tf.placeholder = "Password"
+        tf.isSecureTextEntry = true
+        return tf
+    }()
+    
+    
     
     //MARK:- Lifecycle
     

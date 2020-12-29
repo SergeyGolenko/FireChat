@@ -79,7 +79,18 @@ extension UIView {
         translatesAutoresizingMaskIntoConstraints = false
         widthAnchor.constraint(equalToConstant: width).isActive = true
     }
+    
+    
+    
+    
+    
 }
+
+
+
+
+
+
 //
 //extension UIViewController {
 //    static let hud = JGProgressHUD(style: .dark)
