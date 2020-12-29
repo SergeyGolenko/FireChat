@@ -56,6 +56,12 @@
 		2CB4E35E259B341A0033DACC /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
+				2CB4E37A259B35250033DACC /* Utility */,
+				2CB4E379259B35160033DACC /* API */,
+				2CB4E378259B34ED0033DACC /* ViewController */,
+				2CB4E377259B34E40033DACC /* ViewModel */,
+				2CB4E376259B34DA0033DACC /* View */,
+				2CB4E375259B347B0033DACC /* Model */,
 				2CB4E35F259B341A0033DACC /* AppDelegate.swift */,
 				2CB4E361259B341A0033DACC /* SceneDelegate.swift */,
 				2CB4E363259B341A0033DACC /* ViewController.swift */,
@@ -65,6 +71,48 @@
 				2CB4E36D259B34200033DACC /* Info.plist */,
 			);
 			path = FireChat;
+			sourceTree = "<group>";
+		};
+		2CB4E375259B347B0033DACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CB4E376259B34DA0033DACC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CB4E377259B34E40033DACC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2CB4E378259B34ED0033DACC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2CB4E379259B35160033DACC /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2CB4E37A259B35250033DACC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.SergeyGolenko.MyLocationsApp.FireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.SergeyGolenko.MyLocationsApp.FireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
