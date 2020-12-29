@@ -13,6 +13,7 @@
 		2CB4E367259B341A0033DACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E365259B341A0033DACC /* Main.storyboard */; };
 		2CB4E369259B34200033DACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E368259B34200033DACC /* Assets.xcassets */; };
 		2CB4E36C259B34200033DACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E36A259B34200033DACC /* LaunchScreen.storyboard */; };
+		2CB4E37D259B38380033DACC /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4E37C259B38380033DACC /* ConversationsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CB4E368259B34200033DACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB4E36B259B34200033DACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB4E36D259B34200033DACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB4E37C259B38380033DACC /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,9 @@
 		2CB4E35E259B341A0033DACC /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
+				2CB4E37B259B37F90033DACC /* Controllers */,
 				2CB4E37A259B35250033DACC /* Utility */,
 				2CB4E379259B35160033DACC /* API */,
-				2CB4E378259B34ED0033DACC /* ViewController */,
 				2CB4E377259B34E40033DACC /* ViewModel */,
 				2CB4E376259B34DA0033DACC /* View */,
 				2CB4E375259B347B0033DACC /* Model */,
@@ -94,13 +96,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		2CB4E378259B34ED0033DACC /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		2CB4E379259B35160033DACC /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +108,14 @@
 			children = (
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		2CB4E37B259B37F90033DACC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CB4E37C259B38380033DACC /* ConversationsController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +190,7 @@
 			files = (
 				2CB4E364259B341A0033DACC /* ViewController.swift in Sources */,
 				2CB4E360259B341A0033DACC /* AppDelegate.swift in Sources */,
+				2CB4E37D259B38380033DACC /* ConversationsController.swift in Sources */,
 				2CB4E362259B341A0033DACC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
