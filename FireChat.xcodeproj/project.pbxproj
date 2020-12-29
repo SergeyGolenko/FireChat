@@ -13,6 +13,9 @@
 		2CB4E369259B34200033DACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E368259B34200033DACC /* Assets.xcassets */; };
 		2CB4E36C259B34200033DACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E36A259B34200033DACC /* LaunchScreen.storyboard */; };
 		2CB4E37D259B38380033DACC /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4E37C259B38380033DACC /* ConversationsController.swift */; };
+		2CB4E381259B52560033DACC /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4E380259B52560033DACC /* RegistrationController.swift */; };
+		2CB4E388259B52B90033DACC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4E387259B52B90033DACC /* LoginController.swift */; };
+		2CB4E38B259B6BF60033DACC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4E38A259B6BF60033DACC /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2CB4E36B259B34200033DACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB4E36D259B34200033DACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB4E37C259B38380033DACC /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		2CB4E380259B52560033DACC /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		2CB4E387259B52B90033DACC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2CB4E38A259B6BF60033DACC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		2CB4E37A259B35250033DACC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				2CB4E38A259B6BF60033DACC /* Extension.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -111,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				2CB4E37C259B38380033DACC /* ConversationsController.swift */,
+				2CB4E380259B52560033DACC /* RegistrationController.swift */,
+				2CB4E387259B52B90033DACC /* LoginController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -187,7 +196,10 @@
 			files = (
 				2CB4E360259B341A0033DACC /* AppDelegate.swift in Sources */,
 				2CB4E37D259B38380033DACC /* ConversationsController.swift in Sources */,
+				2CB4E381259B52560033DACC /* RegistrationController.swift in Sources */,
+				2CB4E38B259B6BF60033DACC /* Extension.swift in Sources */,
 				2CB4E362259B341A0033DACC /* SceneDelegate.swift in Sources */,
+				2CB4E388259B52B90033DACC /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
